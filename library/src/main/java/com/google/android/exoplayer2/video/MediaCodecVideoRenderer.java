@@ -202,7 +202,7 @@ public class MediaCodecVideoRenderer extends MediaCodecRenderer {
     }
 
     int adaptiveSupport = decoderInfo.adaptive ? ADAPTIVE_SEAMLESS : ADAPTIVE_NOT_SEAMLESS;
-    int formatSupport = decoderCapable ? FORMAT_HANDLED : FORMAT_EXCEEDS_CAPABILITIES;
+    int formatSupport = FORMAT_HANDLED;//decoderCapable ? FORMAT_HANDLED : FORMAT_EXCEEDS_CAPABILITIES;
     return adaptiveSupport | formatSupport;
   }
 

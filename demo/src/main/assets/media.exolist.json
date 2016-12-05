@@ -1,5 +1,22 @@
 [
   {
+    "name": "EEN Tests",
+    "samples": [
+      {
+        "name": "1001d3d1 - PCM-U issues",
+        "uri": "https://alsok.eagleeyenetworks.com/asset/play/video.flv?c=100d1ac5;T=20161125010300.136;e=20161125011052.956;A=c007~24bb5cca07bbdcfd820d59c1ae8dbd42"
+      },
+      {
+        "name":"EEN HQ PCM Lobby",
+        "uri":"https://c001.eagleeyenetworks.com/asset/play/video.flv?c=1006693d;t=stream_1479918728093ca00a04f;e=+300000;A=c001~a27d8b2c6b373127f268615253e1c9ce"
+      },
+      {
+        "name":"WAV test",
+        "uri":"http://freewavesamples.com/files/Kurzweil-K2000-Big-Mono-Bass-C1.wav"
+      }
+    ]
+  },
+  {
     "name": "YouTube DASH",
     "samples": [
       {
